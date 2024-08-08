@@ -1,0 +1,134 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.background{
+ background-image: url('reviews_background.jpg');
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(0,0,0,.75);
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .nav {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  li:hover{
+      text-decoration: underline;
+  }
+
+  .nav li {
+    margin-left: 20px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .customers {
+    text-align: center;
+    padding: 0px 0;
+    margin: -10px;
+  }
+
+  .customers h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .customers p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+  }
+
+  .customer-reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .review {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+
+  .review img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    border: 5px solid #ff7800;
+    position: relative;
+  }
+
+  .rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .rating i {
+    color: #ff7800;
+    margin: 0 2px;
+  }
+
+  .review p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    text-align: left;
+  }
+
+  .review strong {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+  }

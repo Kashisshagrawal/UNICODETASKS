@@ -1,0 +1,181 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  background-image: url('Aboutus_background.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+  color: #ffffff;
+  background-color: rgba(0,0,0,.75);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+li:hover{
+    text-decoration: underline;
+    cursor: pointer; 
+}
+
+.nav li {
+  margin-left: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.left {
+  width: 50%;
+  text-align: center;
+  padding-right: 50px;
+}
+
+.right {
+  width: 50%;
+  position: relative;
+}
+
+.right img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.right .circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #ff7800;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.right .circle img {
+  width: 450px;
+  height:500px;
+  position: absolute;
+  top: 28.5%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.list .item {
+  display: flex;
+  align-items: center;
+}
+
+.list .item input {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.list .item label {
+  font-size: 16px;
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.button {
+  padding: 15px 30px;
+  background-color:#ff7800;
+  color: #fff;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 2.5px;
+  border-bottom-left-radius: 2.5px;
+  cursor: pointer;
+  
+}
+
+.button:hover {
+  text-decoration: underline;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
